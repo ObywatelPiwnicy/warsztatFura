@@ -1,0 +1,67 @@
+main{
+    min-height: 55vh;
+    max-width: 1440px;
+    margin: 5vh auto;
+    font-size: 0px;
+   
+  }
+  
+  main p.description{
+    /* display: inline-block; */
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 170%;
+    letter-spacing: 1px;
+  }
+
+
+  div.feature{
+    display: inline-block;
+    width: 33.33%;
+    font-size: 1.4rem;
+    /* background-color: wheat; */
+  }
+
+div.feature-img{
+    background-color: rgb(64, 233, 255);
+    height: 240px;
+    margin: 20px;
+    opacity: 0.85;
+}
+
+div.feature-img:hover{
+    opacity: 1;
+}
+
+main h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+#mileage{
+    background-image: url(../img/speedometer-gced9cae5a_640.jpg);
+    background-size: cover;
+}
+
+#car-parts{
+    background-image: url(../img/things-g98bf57268_640.jpg);
+    background-size: cover;
+}
+
+#car-defect{
+    background-image: url(../img/automobile-gc776c6ad2_640.jpg);
+    background-size: cover;
+}
+
+main section.features{
+    background-color: wheat;
+}
+
+@media (max-width: 600px){
+    main h2{
+      font-size: 1.5rem;
+    }
+  }

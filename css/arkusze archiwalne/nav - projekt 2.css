@@ -1,0 +1,45 @@
+nav{
+    background-color: #d6c8c8;;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  nav a{
+    /* display: inline-block; */
+    padding: 10px 0;
+    line-height: 100%;
+    color: brown;
+    margin: auto 0 auto 0;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  nav a.btn{
+    display: inline-block;
+    min-width: 8vw;
+    margin-right: 4vw;
+    text-align: center;
+}
+
+nav a.btn:hover{
+    border-bottom: 2px solid brown;
+}
+
+  nav a.btn2{
+    display: inline-block;
+    text-align: center;
+    min-width: 16vw;
+    margin: 0 100px 0 250px;
+    border: 2px solid brown;
+    letter-spacing: 3px; 
+    transition: 0.3s;
+    
+  }
+
+  nav a.btn2:hover{
+    background-color: brown;
+    color: #d6c8c8;
+  }
